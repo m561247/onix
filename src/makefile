@@ -149,6 +149,7 @@ $(BUILD)/system.map: $(BUILD)/kernel.bin
 include utils/image.mk
 include utils/cdrom.mk
 include utils/cmd.mk
+include utils/usb.mk
 
 .PHONY: clean
 clean:
